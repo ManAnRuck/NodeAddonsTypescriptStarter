@@ -6,7 +6,7 @@ Basic starting point for creating Node C/C++ Addons with NAPI and Typescript.
 Using npm:
 
 ```sh
-npm i nodeaddonstypescriptstarter
+npm i nodeaddonstypescriptstarter -s
 ```
 ```js
 // Example
