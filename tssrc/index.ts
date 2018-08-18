@@ -1,3 +1,5 @@
 import { testAddon } from "./AddonBindings";
 
-console.log(testAddon.Hello());
+export function Hello() {
+    return testAddon.Hello();
+}
