@@ -10,7 +10,7 @@
     "postinstall": "npm run build"
   },
   "author": "Mike Mulchrone <mtmulch2@gmail.com> (https://github.com/mtmulch)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bindings": "^1.3.0",
     "node-addon-api": "^1.4.0"
