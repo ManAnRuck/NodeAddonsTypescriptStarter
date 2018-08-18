@@ -1,6 +1,6 @@
 #include <napi.h>
 
-namespace functionexample
+namespace FunctionExample
 {
     std::string Hello();
     Napi::String HelloWrapped(const Napi::CallbackInfo& info);

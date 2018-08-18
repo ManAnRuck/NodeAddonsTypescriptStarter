@@ -1,19 +1,19 @@
 #include "functionexample.h"
 
-std::string functionexample::Hello()
+std::string FunctionExample::Hello()
 {
     return "Hello World";
 }
 
-Napi::String functionexample::HelloWrapped(const Napi::CallbackInfo &info)
+Napi::String FunctionExample::HelloWrapped(const Napi::CallbackInfo &info)
 {
     Napi::Env env = info.Env();
-    Napi::String returnValue = Napi::String::New(env, functionexample::Hello());
+    Napi::String returnValue = Napi::String::New(env, FunctionExample::Hello());
     return returnValue;
 }
 
-Napi::Object functionexample::Init(Napi::Env env, Napi::Object exports)
+Napi::Object FunctionExample::Init(Napi::Env env, Napi::Object exports)
 {
-    exports.Set("Hello", Napi::Function::New(env, functionexample::HelloWrapped));
+    exports.Set("Hello", Napi::Function::New(env, FunctionExample::HelloWrapped));
     return exports;
 }

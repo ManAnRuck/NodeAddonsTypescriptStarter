@@ -1,5 +1,9 @@
 import { testAddon } from "./AddonBindings";
 
-export function Hello() {
+export const Hello = (): void => {
     return testAddon.Hello();
+}
+
+export const Prime = (num: number): number => {
+    return testAddon.Prime(num);
 }
