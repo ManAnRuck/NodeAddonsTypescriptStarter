@@ -5,7 +5,7 @@
         "cflags_cc!": [ "-fno-exceptions" ],
         "sources": [
             "cppsrc/main.cpp",
-            "cppsrc/Samples/functionexample.cpp",
+            "cppsrc/Samples/FunctionExample.cpp",
             "cppsrc/Primes/Primes.cpp"
         ],
         'include_dirs': [
